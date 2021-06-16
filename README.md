@@ -37,11 +37,12 @@ git clone https://github.com/kgauzampe/yiya-kude-assesment.git
 
 after cloning the repo CD into it and run the command
 
-### Question1
-
+### Project1
+cd Project1
 node movies.js
 
-### Question2
-
+### Project2
+cd ../
+cd Project2
 Jshint file.js
 
