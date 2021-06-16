@@ -1,0 +1,10 @@
+{
+    "undef": true,
+    "unused": true,
+    "curly": true,
+    "eqeqeq": true,
+    "nocomma": true,
+    "globals": {
+      "MY_GLOBAL": true
+    }
+  }

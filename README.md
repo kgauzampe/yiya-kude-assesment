@@ -3,7 +3,7 @@
 
 1. NodeJs
 2. NPM
-
+3. JsHint
 ## Installation
 
 ### 1. Install Node js on Window
@@ -18,12 +18,13 @@ Run the following command
 
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
+npm install -g jshint
 
 # Using Debian, as root
 
 curl -sL https://deb.nodesource.com/setup_12.x | bash -
 apt-get install -y nodejs
-
+npm install -g jshint
 NPM is packaged with NodeJS
 
 ## how to get the project
@@ -42,5 +43,5 @@ node movies.js
 
 ### Question2
 
-node .js
+Jshint file.js
 
