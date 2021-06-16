@@ -7,7 +7,7 @@ http.get('http://www.omdbapi.com/?i=tt3896198&apikey=de55b8e5', res => {
   //console.log('your movie list',res.json());
 
   res.on('data', (d) => { process.stdout.write(d); });
-  console.log(d)
+  
 
   res.on('end', () => {
     console.log('Response ended: ');
